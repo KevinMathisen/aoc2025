@@ -4,14 +4,16 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.kevinnm.aoc.day0.Day0;
+import com.kevinnm.aoc.day1.Day1;
 
 public class Main {
     private static final Day[] days = {
-        new Day0()
+        new Day0(),
+        new Day1()
     };
 
     public static void main(String[] args) {
-        int dayNum = 0;
+        int dayNum = 1;
 
         String[] input = readInput(dayNum);
 
