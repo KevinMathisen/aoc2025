@@ -30,7 +30,7 @@ public class Day1 implements Day {
         return timesAtZero;
     }
 
-    // @Override
+    @Override
     public int part2(String[] input) {
         ArrayList<Instruction> instructions = new ArrayList<>();
 
