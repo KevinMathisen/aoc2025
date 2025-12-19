@@ -21,6 +21,14 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
       </plugin>
+      <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>3.3.0</version>
+      <configuration>
+        <mainClass>com.kevinnm.aoc.Main</mainClass>
+      </configuration>
+    </plugin>
     </plugins>
   </build>
 
