@@ -6,16 +6,15 @@ import java.util.Scanner;
 import com.kevinnm.aoc.day0.Day0;
 import com.kevinnm.aoc.day1.Day1;
 import com.kevinnm.aoc.day2.Day2;
+import com.kevinnm.aoc.day3.Day3;
 
 public class Main {
     private static final Day[] days = {
-        new Day0(),
-        new Day1(),
-        new Day2()
+        new Day0(), new Day1(), new Day2(), new Day3()
     };
 
     public static void main(String[] args) {
-        int dayNum = 2;
+        int dayNum = 3;
 
         String[] input = readInput(dayNum);
 
