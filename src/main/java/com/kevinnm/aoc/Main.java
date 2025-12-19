@@ -5,15 +5,17 @@ import java.util.Scanner;
 
 import com.kevinnm.aoc.day0.Day0;
 import com.kevinnm.aoc.day1.Day1;
+import com.kevinnm.aoc.day2.Day2;
 
 public class Main {
     private static final Day[] days = {
         new Day0(),
-        new Day1()
+        new Day1(),
+        new Day2()
     };
 
     public static void main(String[] args) {
-        int dayNum = 1;
+        int dayNum = 2;
 
         String[] input = readInput(dayNum);
 
