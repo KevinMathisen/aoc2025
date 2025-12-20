@@ -8,15 +8,16 @@ import com.kevinnm.aoc.day1.Day1;
 import com.kevinnm.aoc.day2.Day2;
 import com.kevinnm.aoc.day3.Day3;
 import com.kevinnm.aoc.day4.Day4;
+import com.kevinnm.aoc.day5.Day5;
 
 public class Main {
     private static final Day[] days = {
         new Day0(), new Day1(), new Day2(), new Day3(),
-        new Day4()
+        new Day4(), new Day5()
     };
 
     public static void main(String[] args) {
-        int dayNum = 4;
+        int dayNum = 5;
 
         String[] input = readInput(dayNum);
 
