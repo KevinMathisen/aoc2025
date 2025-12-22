@@ -10,22 +10,24 @@ import com.kevinnm.aoc.day3.Day3;
 import com.kevinnm.aoc.day4.Day4;
 import com.kevinnm.aoc.day5.Day5;
 import com.kevinnm.aoc.day7.Day7;
+import com.kevinnm.aoc.day8.Day8;
 
 public class Main {
     private static final Day[] days = {
         new Day0(), new Day1(), new Day2(), new Day3(),
-        new Day4(), new Day5(), new Day5(), new Day7()
+        new Day4(), new Day5(), new Day5(), new Day7(),
+        new Day8()
     };
 
     public static void main(String[] args) {
-        int dayNum = 7;
+        int dayNum = 8;
 
         String[] input = readInput(dayNum);
 
         Day day = days[dayNum];
         System.out.println("Day " + dayNum);
         System.out.println("Part 1: " + day.part1(input));
-        System.out.println("Part 1: " + day.part2(input));
+        System.out.println("Part 2: " + day.part2(input));
     }
 
     private static String[] readInput(int dayNum) {
